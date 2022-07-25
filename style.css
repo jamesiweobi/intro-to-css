@@ -1,4 +1,31 @@
 h6 {
-  font-size: 40px;
-  color: pink;
+  font-size: 18px;
+  color: red;
+}
+
+/* * {
+  background-color: black;
+  color: white;
+} */
+
+
+#number-one {
+  color: gray;
+}
+
+.red-font-color {
+  color: red;
+}
+
+.number-three {
+  background-color: yellow;
+}
+
+input[type="text"] {
+
+  background-color: black;
+}
+
+input[name="girl"] {
+  background-color: red;
 }

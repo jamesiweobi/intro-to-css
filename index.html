@@ -6,28 +6,32 @@
   <title>Introduction to CSS</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' href='./style.css'>
-  <link rel='stylesheet' type='text/css' href='./secondStyle.css'>
+  <!-- <link rel='stylesheet' type='text/css' href='./secondStyle.css'> -->
   <!-- <script src='main.js'></script> -->
   <style>
     p {
       color: blue;
     }
+    /* h1 {
+      color: blue; 
+    } */
+   
   </style>
 </head>
 <body>
 
 <div>
-  <h4>In-Line CSS</h4>
-  <h1 >Hello world!</h1>
+  <h4 id="number-one">In-Line CSS</h4>
+  <h1  class="number-two red-font-color number-three">Hello world!</h1>
 <h1 style="color: red; font-size: 60px;">Hello world!</h1>
 </div>
 
 <div>
-  <h4>Internal Css</h4>
+  <h4 class="number-three">Internal Css</h4>
 
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iste delectus est perspiciatis autem rem repellat in non. Dolorem ipsum eaque nesciunt vero eligendi harum ipsa labore? Aliquid, ad culpa.</p>
 
-  <p>
+  <p class="number-three">
     lorem 
   </p>
 </div>
@@ -38,6 +42,19 @@
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius excepturi quo quidem fuga? Rem sunt voluptatum consectetur quis, quasi ut impedit necessitatibus nisi dolorum delectus nobis, sed deserunt obcaecati?
   </h6>
 </div>
+
+
+<div class="number-three"> <p>grape</p></div>
+<div class="number-three "> <p class="red-font-color">apple</p></div>
+<div class="number-three"> <p>mango</p></div>
+
+
+<input type="text" rows="30" cols="60" placeholder="test element">
+<input type="email" name="girl" rows="30" cols="60" placeholder="test element">
+<input type="text" rows="30" cols="60" placeholder="test element">
+<input type="number" rows="30" cols="60" placeholder="test element">
+<input type="text" rows="30" cols="60" placeholder="test element">
+<input type="email" name="girl" rows="30" cols="60" placeholder="test element">
 
 <button type="button"><a href="./secondapge.html">To next page</a></button>
 
